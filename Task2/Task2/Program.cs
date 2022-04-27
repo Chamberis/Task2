@@ -10,6 +10,14 @@ namespace Task2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter first number:");
+            string firstNum = Console.ReadLine();
+            Console.WriteLine("Enter second number:");
+            string secondNum = Console.ReadLine();
+
+            int sum = int.Parse(firstNum) + int.Parse(secondNum);
+            Console.WriteLine($"Sum: {sum}");
+            Console.ReadLine();
         }
     }
 }
